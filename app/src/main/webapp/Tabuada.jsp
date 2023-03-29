@@ -7,7 +7,7 @@
     <h1>Tabuada do 5</h1>
     
     <%
-        int cont = 0;
+        int cont = 1;
         int resp = 0;
         
         while(cont<=11) {
