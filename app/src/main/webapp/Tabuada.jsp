@@ -22,5 +22,13 @@
         for(int num = 1; num <= 10; num++)
         out.print("<br/>" + (num*5));
     %>
+    <h1> Do-While </h1>
+        <%
+        int num = 1;        
+        do{
+                out.print("<br/>" + (num*5));
+                num++;
+        } while(num<=10) 
+        %>
 </body>
 </html>
