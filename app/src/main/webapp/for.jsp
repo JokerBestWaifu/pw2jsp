@@ -11,5 +11,13 @@
             out.print("<br/>" + cont);
         }
     %>
+
+    <h1>For Each</h1>
+    <%
+    int[] vetor = {1, 2, 3, 4, 5, 6, 7, 8};
+    for( int num : vetor) {
+        out. print("<br/>" + num);
+    }
+    %>
 </body>
 </html>
