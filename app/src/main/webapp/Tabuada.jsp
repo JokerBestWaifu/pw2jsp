@@ -16,6 +16,11 @@
                 cont++;
         } 
 %>
-    
+
+<h1> For </h1>
+    <%
+        for(int num = 1; num <= 10; num++)
+        out.print("<br/>" + (num*5));
+    %>
 </body>
 </html>
